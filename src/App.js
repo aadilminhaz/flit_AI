@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import './components_css/components.css'
+//import london_night from './london_night.jpeg'
 import FlitWelcome from './components/flitWelcome.js'
+import { FlitHeader } from './components/flitWelcome.js';
 
 
 /**function FlitWelcome() {
@@ -12,14 +15,14 @@ import FlitWelcome from './components/flitWelcome.js'
   );
 }*/
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+//Edit <code>src/App.js</code> and save to reload.
+
+/*
+<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          
         </p>
         <FlitWelcome/>
         <a
@@ -32,6 +35,15 @@ function App() {
         </a>
         
       </header>
+*/
+
+function App() {
+  return (
+    <div className="App">
+      
+      <FlitHeader/>
+      <FlitWelcome/>
+
       
     </div>
     
